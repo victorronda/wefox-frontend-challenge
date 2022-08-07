@@ -1,0 +1,10 @@
+.cities-list {
+    &__container {
+        width: 80%;
+        margin: 10%;
+    }
+
+    &__item {
+        cursor: pointer;
+    }
+}

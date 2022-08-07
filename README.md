@@ -1,15 +1,35 @@
-# Getting Started with Create React App
+# Travel with us
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Setup
 
+Clone:
+```
+git clone https://github.com/victorronda/wefox-frontend-challenge.git
+```
+
+First time after cloning:
+```
+npm install
+```
+
+## Setup Docker
+
+Follow the instructions provided in this [link](https://hub.docker.com/r/wefoxgroup/wg-web-challenge).
+
+Then, each time you have to run the docker deamon and run from the root of the project:
+
+```
+docker-compose up
+```
+Will be running in port 3000
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode.
+It will say is port 3000 (as our server is running there) is occupied so type "Y" yo confirm to run the development server in a different port(likely port 3001)
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
@@ -27,7 +47,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
 
@@ -39,8 +58,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

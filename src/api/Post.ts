@@ -19,7 +19,7 @@ export async function getAllPosts(): Promise<
 
 export async function getPost(
   id?: number
-): Promise<PostsData[] | ResponseErrorMessage> {
+): Promise<PostsData | ResponseErrorMessage> {
   const response = await fetch(`${POSTS_URL}/${id}`);
   if (!response.ok) {
     return responseErrorMessage;
