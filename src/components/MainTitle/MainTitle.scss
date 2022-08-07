@@ -1,0 +1,25 @@
+@use '../../sass/index' as *;
+
+.main-title {
+    &__logo {
+        height: 100px;
+        width: auto;
+
+        @include smMaxBreakPoint {
+            height: 60px;
+            width: auto;
+        }
+    }
+
+    &__title {
+        font-family: $mainTitleFont;
+        font-size: 150px;
+        color: rgb(167, 206, 236);
+
+        @include smMaxBreakPoint {
+            font-family: $mainTitleFont;
+            font-size: 75px;
+            color: rgb(167, 206, 236);
+        }
+    }
+}
